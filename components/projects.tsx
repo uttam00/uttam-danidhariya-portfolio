@@ -30,7 +30,7 @@ const projects = [
       "Cloudinary",
       "CSS",
     ],
-    role: "Created advanced web portal designed to facilitate seamless live streaming across major social media platforms. Implemented comprehensive integrations with APIs from YouTube, Facebook, Vimeo, and other platforms. Developed and deployed a robust subscription model using Stripe, offering a range of customizable plans to suit diverse user needs.",
+    role: "A modern, responsive portfolio built with Next.js 14 and TypeScript, featuring a dynamic gallery, secure admin dashboard, and interactive contact system. Designed with shadcn/ui, Framer Motion animations, it blends creativity with sleek, efficient technology.",
     liveLink: "#",
     githubLink: "#",
     expanded: false,
