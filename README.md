@@ -4,11 +4,6 @@ Welcome to the **personal portfolio** of Uttam Danidhariya — a passionate Fron
 
 ---
 
-## ✨ Live Preview
-
-> **Check it out:** [Live Demo Coming Soon!](#)
-
----
 
 ## 🖼️ Overview
 
