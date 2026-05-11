@@ -43,18 +43,6 @@ const skillCategories = [
       { name: "Tailwind CSS", level: 90, color: "bg-cyan-400" },
     ],
   },
-  {
-    id: "tools",
-    name: "Dev Tools & Cloud",
-    skills: [
-      { name: "Git", level: 90, color: "bg-orange-600" },
-      { name: "Bitbucket", level: 85, color: "bg-blue-700" },
-      { name: "AWS Lambda", level: 85, color: "bg-orange-500" },
-      { name: "Vercel", level: 90, color: "bg-black" },
-      { name: "Jest", level: 75, color: "bg-red-500" },
-      { name: "Webpack & Vite", level: 80, color: "bg-purple-400" },
-    ],
-  },
 ]
 
 // All skills for the filter
