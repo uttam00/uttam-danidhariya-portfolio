@@ -88,7 +88,7 @@ export default function Skills() {
           </p>
         </motion.div>
 
-        <Tabs defaultValue="frontend" className="w-full">
+        <Tabs defaultValue="core" className="w-full">
           <div className="flex justify-center mb-8">
             <TabsList className="grid grid-cols-3 w-full max-w-md">
               {skillCategories.map((category) => (
