@@ -1,6 +1,6 @@
 # 🚀 Uttam Danidhariya Portfolio Website
 
-Welcome to the **personal portfolio** of Uttam Danidhariya — a passionate Frontend Developer specializing in React and Next.js! 🌟
+Welcome to the **personal portfolio** of Uttam Danidhariya — a passionate MERN Stack Developer with expertise in building scalable web applications! 🌟
 
 ---
 
@@ -57,7 +57,7 @@ This portfolio is a modern, interactive, and visually stunning showcase of my sk
 
 ### 🛠️ Skills
 
-- Categorized tabs: Frontend, UI Libraries, Dev Tools
+- Categorized tabs: Core Frontend, Backend & Database, State & UI Libraries
 - Interactive skill cloud with search and selection
 
 ### 🚀 Projects

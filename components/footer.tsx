@@ -13,7 +13,7 @@ export default function Footer() {
               </div>
               <span>Uttam Danidhariya</span>
             </Link>
-            <p className="text-muted-foreground mt-2">Frontend Developer specializing in React and Next.js</p>
+            <p className="text-muted-foreground mt-2">MERN Stack Developer with expertise in building scalable web applications</p>
             <div className="mt-4 text-sm text-muted-foreground">
               <p>Ahmedabad, India</p>
               <a href="mailto:uttamdanidhariya@gmail.com" className="hover:text-primary transition-colors">

@@ -119,7 +119,7 @@ export default function Header() {
               className="rounded-full"
               asChild
             >
-              <a href="/Uttam_Danidhariya_Resume.pdf" download>
+              <a href="/Uttam_Danidhariya_Resume_.pdf" download>
                 <Download className="mr-2 h-4 w-4" />
                 CV
               </a>
@@ -178,7 +178,7 @@ export default function Header() {
                   className="w-full rounded-full"
                   asChild
                 >
-                  <a href="/Uttam_Danidhariya_Resume.pdf" download>
+                  <a href="/Uttam_Danidhariya_Resume_.pdf" download>
                     <Download className="mr-2 h-4 w-4" />
                     Download CV
                   </a>
