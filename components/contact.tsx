@@ -295,7 +295,7 @@ export default function Contact() {
                 </div>
                 <div>
                   <h4 className="font-semibold">
-                    ReactJs/NextJs Frontend Developer
+                    MERN Stack Developer
                   </h4>
                   <p className="text-sm text-muted-foreground">
                     Intellimedia Networks
