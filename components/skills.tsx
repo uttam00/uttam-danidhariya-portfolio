@@ -8,39 +8,51 @@ import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from "@/comp
 
 const skillCategories = [
   {
-    id: "frontend",
-    name: "Frontend",
+    id: "core",
+    name: "Core Frontend",
     skills: [
-      { name: "React", level: 95, color: "bg-blue-500" },
+      { name: "React.js", level: 95, color: "bg-blue-500" },
       { name: "Next.js", level: 90, color: "bg-black" },
       { name: "TypeScript", level: 85, color: "bg-blue-700" },
-      { name: "Redux", level: 80, color: "bg-purple-600" },
       { name: "JavaScript", level: 95, color: "bg-yellow-500" },
       { name: "HTML", level: 95, color: "bg-orange-600" },
       { name: "CSS", level: 90, color: "bg-blue-500" },
-      { name: "SASS/SCSS", level: 85, color: "bg-pink-500" },
     ],
   },
   {
-    id: "ui",
-    name: "UI Libraries",
+    id: "backend",
+    name: "Backend & Database",
     skills: [
+      { name: "Node.js", level: 90, color: "bg-green-600" },
+      { name: "Express.js", level: 85, color: "bg-gray-700" },
+      { name: "REST APIs", level: 90, color: "bg-purple-500" },
+      { name: "GraphQL", level: 85, color: "bg-pink-600" },
+      { name: "MongoDB", level: 85, color: "bg-green-500" },
+      { name: "PostgreSQL", level: 80, color: "bg-blue-600" },
+    ],
+  },
+  {
+    id: "stateui",
+    name: "State & UI Libraries",
+    skills: [
+      { name: "Redux Toolkit", level: 80, color: "bg-purple-600" },
+      { name: "React Query", level: 85, color: "bg-amber-500" },
+      { name: "Context API", level: 85, color: "bg-cyan-500" },
       { name: "Material UI", level: 85, color: "bg-blue-400" },
       { name: "Ant Design", level: 85, color: "bg-red-500" },
-      { name: "Bootstrap", level: 80, color: "bg-purple-500" },
-      { name: "React Bootstrap", level: 80, color: "bg-indigo-500" },
-      { name: "Figma to HTML", level: 90, color: "bg-pink-600" },
-      { name: "Yup", level: 75, color: "bg-green-500" },
+      { name: "Tailwind CSS", level: 90, color: "bg-cyan-400" },
     ],
   },
   {
     id: "tools",
-    name: "Dev Tools",
+    name: "Dev Tools & Cloud",
     skills: [
       { name: "Git", level: 90, color: "bg-orange-600" },
       { name: "Bitbucket", level: 85, color: "bg-blue-700" },
+      { name: "AWS Lambda", level: 85, color: "bg-orange-500" },
+      { name: "Vercel", level: 90, color: "bg-black" },
       { name: "Jest", level: 75, color: "bg-red-500" },
-      { name: "GraphQL", level: 70, color: "bg-pink-600" },
+      { name: "Webpack & Vite", level: 80, color: "bg-purple-400" },
     ],
   },
 ]
@@ -143,7 +155,7 @@ export default function Skills() {
             />
           </div>
 
-          {/* Skill cloud */}
+          {/* Skill cloud - all technical skills from CV */}
           <div className="flex flex-wrap justify-center gap-4 py-8">
             <TooltipProvider>
               {filteredSkills.map((skill, index) => {
