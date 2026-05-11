@@ -94,13 +94,13 @@ export default function Hero() {
           <div className="text-xl md:text-2xl font-medium mb-6 h-12">
             <TypeAnimation
               sequence={[
-                "Frontend Developer",
+                "MERN Stack Developer",
                 1000,
                 "React Specialist",
                 1000,
                 "Next.js Expert",
                 1000,
-                "UI/UX Enthusiast",
+                "Full-Stack Enthusiast",
                 1000,
               ]}
               wrapper="span"
@@ -110,9 +110,9 @@ export default function Hero() {
             />
           </div>
           <p className="text-lg text-muted-foreground mb-8 max-w-lg mx-auto md:mx-0">
-            Frontend Developer with expertise in creating scalable web
-            applications utilizing React.js and Next.js. Proficient in API
-            integration and converting Figma designs into responsive user
+            MERN Stack Developer with 4+ years of expertise in building scalable web
+            applications using MongoDB, Express.js, React.js, and Node.js. Proficient in API
+            integration, database design, and converting Figma designs into responsive user
             interfaces. Recognized for strong problem-solving abilities and
             clean coding practices, fostering effective collaboration with
             cross-functional teams.

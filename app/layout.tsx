@@ -7,9 +7,9 @@ import { ThemeProvider } from "@/components/theme-provider";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Uttam Danidhariya | Frontend Developer",
+  title: "Uttam Danidhariya | MERN Stack Developer",
   description:
-    "Portfolio of Uttam Danidhariya, a Frontend Developer specializing in React and Next.js",
+    "Portfolio of Uttam Danidhariya, a MERN Stack Developer with 4+ years of experience building scalable web applications with MongoDB, Express, React, and Node.js",
 };
 
 export default function RootLayout({
